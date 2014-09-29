@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+ 		<link rel="stylesheet" href="js/redactor/redactor.css" />
+        <script src="js/redactor/redactor.js"></script>
+ 		<script type="text/javascript">
+        $(function()
+        {
+            $('#content').redactor();
+            $('#test-div').redactor();
+        });
+        </script>
+</head>
+<body>
+	<textarea id="content" name="content"></textarea>
+	<div id="test-div" name="test-div"></div>
+</body>
+</html>
